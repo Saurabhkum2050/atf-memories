@@ -1,0 +1,251 @@
+/* Dark Theme */
+
+.dark-theme {
+  background-color: #191919;
+  background-image: url(/assets/img/textures/inspiration-geometry.png);
+}
+
+/* Works on Firefox */
+.dark-theme {
+  scrollbar-width: thin;
+  scrollbar-color: #393939 #191919;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.dark-theme::-webkit-scrollbar {
+  width: 12px;
+}
+
+.dark-theme::-webkit-scrollbar-track {
+  background: #191919;
+}
+
+.dark-theme::-webkit-scrollbar-thumb {
+  background-color: #393939;
+  border-radius   : 20px;
+  border          : 3px solid #191919;
+}
+
+.dark-theme>#preloader>.spinner-grow {
+  color: #3B3B3B;
+}
+
+.dark-theme .navbar {
+  background-color: #191919;
+  border-bottom   : 1px solid #2B2B2B;
+}
+
+.dark-theme .navbar {
+  background-color: #191919;
+  border-color    : #2B2B2B;
+}
+
+.dark-theme .navbar .nav-item {
+  color: #ffffff;
+}
+
+.dark-theme .navbar .nav-item:hover {
+  color: #00BDFF;
+}
+
+.dark-theme .navbar .active {
+  color: #00BDFF !important;
+}
+
+.dark-theme .navbar .nav-item:focus {
+  color: #00BDFF;
+}
+
+.dark-theme .timeline::before {
+  background: #393939;
+}
+
+.dark-theme .timeline-content {
+  background  : #202020;
+  color       : #757575;
+  border-color: #2B2B2B;
+}
+
+.dark-theme .timeline-content::after {
+  border-color: transparent transparent transparent #2B2B2B;
+}
+
+.dark-theme .timeline-item:nth-child(even) .timeline-content::after {
+  border-color: transparent #2B2B2B transparent transparent;
+}
+
+.dark-theme .date {
+  background: rgba(43, 43, 43, 0.96);
+  color     : #FFFFFF;
+}
+
+.dark-theme footer {
+  background: #191919;
+  border-top: 1px solid #2B2B2B;
+  color     : #757575;
+}
+
+.dark-theme footer #copyright {
+  border-top: 1px solid #2B2B2B;
+  color     : #424242;
+  font-size : smaller;
+}
+
+.dark-theme footer ul li {
+  list-style-type: none;
+  padding        : 5px 0 !important;
+}
+
+.dark-theme footer ul li a {
+  text-decoration: none;
+  color          : #757575;
+}
+
+.dark-theme footer ul li a:hover {
+  color: #00BDFF;
+}
+
+.dark-theme footer ul li .active {
+  color: #00BDFF;
+}
+
+.dark-theme footer ul li a:focus {
+  color: #00BDFF;
+}
+
+@media screen and (max-width: 768px) {
+  .dark-theme .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    border-color: transparent #2B2B2B transparent transparent;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Light Theme */
+
+.light-theme {
+  background-color: #F8F8F8;
+  background-image: url(/assets/img/textures/inspiration-geometry.png);
+}
+
+/* Works on Firefox */
+.light-theme {
+  scrollbar-width: thin;
+  scrollbar-color: #C6C6C6 #F8F8F8;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.light-theme::-webkit-scrollbar {
+  width: 12px;
+}
+
+.light-theme::-webkit-scrollbar-track {
+  background: #F8F8F8;
+}
+
+.light-theme::-webkit-scrollbar-thumb {
+  background-color: #C6C6C6;
+  border-radius   : 20px;
+  border          : 3px solid #F8F8F8;
+}
+
+.light-theme>#preloader>.spinner-grow {
+  color: #EBEBEB;
+}
+
+.light-theme .navbar {
+  background-color: #ffffff;
+  border-bottom   : 1px solid #E5E5E5;
+}
+
+.light-theme .navbar .nav-item {
+  color: #181818;
+}
+
+.light-theme .navbar .nav-item:hover {
+  color: #01BDFF !important;
+}
+
+.light-theme .navbar .active {
+  color: #01BDFF !important;
+}
+
+.light-theme .navbar .nav-item:focus {
+  color: #01BDFF !important;
+}
+
+.light-theme .timeline::before {
+  background: #E5E5E5;
+}
+
+.light-theme .timeline-content {
+  background  : #ffffff;
+  color       : #424242;
+  border-color: transparent;
+}
+
+.light-theme .timeline-content::after {
+  border-color: transparent transparent transparent #00BDFF;
+}
+
+.light-theme .timeline-item:nth-child(even) .timeline-content::after {
+  border-color: transparent #00BDFF transparent transparent;
+}
+
+.light-theme .date {
+  background: rgba(0, 189, 255, 0.8);
+  color     : #fff;
+}
+
+.light-theme footer {
+  background: #FFFFFF;
+  border-top: 1px solid #E5E5E5;
+}
+
+.light-theme footer #copyright {
+  border-top: 1px solid #E5E5E5;
+  color     : #6C757D;
+  font-size : smaller;
+}
+
+.light-theme footer ul li {
+  list-style-type: none;
+  padding        : 5px 0 !important;
+}
+
+.light-theme footer ul li a {
+  text-decoration: none;
+  color          : #212529;
+}
+
+.light-theme footer ul li a:hover {
+  color: #00BDFF;
+}
+
+.light-theme footer ul li .active {
+  color: #00BDFF;
+}
+
+.light-theme footer ul li a:focus {
+  color: #00BDFF;
+}
+
+@media screen and (max-width: 768px) {
+  .light-theme .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    border-color: transparent rgba(0, 189, 255, 0.8) transparent transparent;
+  }
+}
