@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xyqvwswbelpa/public_html/memories
+    - /bin/cp -R images $DEPLOYPATH
