@@ -212,6 +212,6 @@ window.matchMedia('(prefers-color-scheme: dark)')
 	.addEventListener('change', event => toggleDarkMode(event.matches));
 
 // Prevent copy paste
-// document.onkeydown = (e) => {
-// 	return !(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117));
-// };
+document.onkeydown = (e) => {
+	return !(e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117));
+};
